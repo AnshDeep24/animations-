@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: url('dark.jpeg') no-repeat center 
+    center/cover;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+.animated{
+    font-family: 'Charm', cursive;
+    margin: 0%;
+    padding: 0%;
+    font-size: 6rem;
+    background: url("animation.png" ) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: movebg 90s linear infinite;
+    -webkit-animation:movebg 90s linear infinite ;
+}
+@keyframes movebg {
+    0%{
+        background-position: 0% 30%;
+
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+}
+.img{
+    align-items: center;
+    justify-content: center;
+    padding-top: 0rem;
+    padding-right:0;
+    padding-left: 35rem;
+    padding-bottom: 35rem;
+    width: 100px;
+    border-radius: 50rem;
+
+
+}
